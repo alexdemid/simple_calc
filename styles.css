@@ -1,0 +1,27 @@
+.calc-display {
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;
+    margin: 25px 20px;
+    box-sizing: border-box;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(177, 199, 145);
+    margin: auto;
+}
+
+.panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr ;
+}
+
+
+button{
+    width: 100%;
+}
+
